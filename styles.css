@@ -1,5 +1,6 @@
 html, body {
 	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
 	height: 100%;
 }
 
@@ -9,23 +10,29 @@ html, body {
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-content: flex-start;
+	align-items: baseline;
 	background-color: mediumaquamarine;
 }
 
 .buttonstyles {
 	width: 30%;
 	height: 20%;
-	overflow: hidden;
 	margin: 10% 0 10%;
+	overflow: hidden;
+	font-size: 1.75em;
 }
 
 .input-field {
-	margin: 10% 0 10%;
-
+	height: 40px;
+	width: 55%;
+	margin-bottom: 5%;
+	min-width: 400px;
+	font-size: 1.25em;
 }
 
 .count {
 	text-align: center;
-	margin: 10% 0 10%;
 	border: 1px solid black;
+	padding: 5%;
+	font-size: 1.5em;
 }
