@@ -1,0 +1,30 @@
+html, body {
+	font-family: "Lucida Console", Monaco, monospace;
+	height: 100%;
+}
+
+
+.main-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+	background-color: mediumaquamarine;
+}
+
+.buttonstyles {
+	width: 30%;
+	height: 20%;
+	overflow: hidden;
+	margin: 10% 0 10%;
+}
+
+.input-field {
+	margin: 10% 0 10%;
+
+}
+
+.count {
+	text-align: center;
+	margin: 10% 0 10%;
+}
