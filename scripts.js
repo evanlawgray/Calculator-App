@@ -24,7 +24,6 @@ $(function() {
 		$countDiv.text("Count: " + count);
 	});
 
-
 	
 	$(".input-field").on ("keyup", function() {
 		if($(".input-field").val() == ''){
@@ -41,6 +40,7 @@ $(function() {
 			alert("You have entered an invalid input");
 		}
 		});
+
 
 });
 
